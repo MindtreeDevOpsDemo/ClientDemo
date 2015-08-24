@@ -18,7 +18,7 @@ public class BaseController {
 	public String welcome(ModelMap model) {
 
 		model.addAttribute("message", "Welcome");
-		model.addAttribute("counter", "Hi Prachi");
+		model.addAttribute("counter", "Hi Raj");
 		logger.debug("[welcome] counter : {}", counter);
 
 		//Spring uses InternalResourceViewResolver and return back index.jsp
